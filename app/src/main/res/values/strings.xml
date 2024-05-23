@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My_Toast</string>
+    <string name="Title">Terms and conditions to join Mokka party</string>
+    <string name="list">1.Should not have brain\n
+                        2.Must be Lazy\n
+                        3.Should be a Smoker\n
+                        4.Must Drink\n
+                        5.Should be a stalker\n
+        6.Able to act like a sincere worker
+    </string>
+</resources>

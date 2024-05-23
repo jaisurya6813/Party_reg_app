@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity2"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Monki"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="125dp"
+        android:layout_marginBottom="20dp"
+        android:text="\t\t\t\t\t\t\t\t\t\tCongratulations !!!\n You have successfully joined the party"
+        android:textColor="@color/lb_tv_white"/>
+
+    <ImageView
+        android:id="@+id/Monki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/party_lead" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/Monki"
+        android:layout_marginBottom="-80dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/ID"
+        android:textColor="@color/lb_tv_white"
+        />
+</RelativeLayout>
